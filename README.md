@@ -128,6 +128,11 @@ the first time you run it with a folder path, it saves that. next time you can j
 
 ## controls once it's running
 
+<img width="1486" height="857" alt="Capture d’écran, le 2026-01-29 à 23 48 25" src="https://github.com/user-attachments/assets/7ddfab61-5d70-4de1-a241-b52f57ef0ba5" />
+
+
+
+
 | key | what it does |
 |-----|--------------|
 | j or down arrow | go to next character |
@@ -186,3 +191,4 @@ you can also tweak `POS_WORDS` and `NEG_WORDS` (for the mood meter) and `COMBAT_
 ## what else?
 
 do whatever you want with this! it's yours now!
+
