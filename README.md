@@ -22,7 +22,7 @@ or sometimes it's:
 python3 --version
 ```
 
-you should see something like `Python 3.10.0` or higher. if you get "command not found" or an error, you need to install python first. go do that!
+you should see something like `Python 3.10.0` or higher. if you get "command not found" or an error, you need to install python first. go do that silly!
 
 ## step 2: get the imagination insider folder
 
@@ -30,7 +30,7 @@ download or clone this repo so you have a folder with all the files in it. the m
 
 ## step 3: install the thing it needs (textual)
 
-imagination insider uses a library called textual to draw the interface. you only need to do this once
+imagination insider uses a library called textual to draw the interface. you'll only need to do this once
 
 open a terminal, go to the imagination insider folder, then run:
 
@@ -75,7 +75,7 @@ my_game_logs/
   session_2026_01_03.txt
 ```
 
-that's it. just plain text files. you can name them whatever you want as long as they end in `.txt`
+that's it, just plain text files. you can name them whatever you want as long as they end in `.txt`
 
 ### optional: dates in filenames
 
@@ -101,7 +101,7 @@ from the imagination insider folder (the one with `imagination_insider.py` in it
 python imagination_insider.py
 ```
 
-that's it. if you've never run it before, it will look for a folder called `game_logs` inside your home directory. if that doesn't exist, it might cause an error. in that case, tell it where your logs are:
+if you've never run it before, it will look for a folder called `game_logs` inside your home directory. if that doesn't exist, it might cause an error. in that case, tell it where your logs are:
 
 ```bash
 python imagination_insider.py /path/to/your/logs
@@ -126,7 +126,7 @@ python imagination_insider.py ~/Documents/my_game_logs
 
 ### it remembers your folder
 
-the first time you run it with a folder path, it saves that. next time you can just run `python imagination_insider.py` with no path and it will use the same folder
+the first time you run it with a folder path, it saves it. next time you can just run `python imagination_insider.py` with no path and it will use the same folder
 
 ## controls once it's running
 
@@ -137,7 +137,7 @@ the first time you run it with a folder path, it saves that. next time you can j
 | r | refresh (reload files from disk if you edited them) |
 | q | quit |
 
-## step 6: tell it who your  goons are
+## step 6: tell it who your goons are
 
 before you run it, you need to edit `config.py` to match your game. open it in any text editor
 
@@ -188,5 +188,6 @@ you can also tweak `POS_WORDS` and `NEG_WORDS` (for the mood meter) and `COMBAT_
 ## what else?
 
 do whatever you want with this! it's yours now!
+
 
 
